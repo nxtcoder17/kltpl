@@ -1,0 +1,4 @@
+name: {{.Name}}
+name: {{index . "name"}}
+name: {{val "name"}}
+name: {{val "namex" "777777"}}
