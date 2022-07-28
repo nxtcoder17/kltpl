@@ -4,3 +4,7 @@ tasks:
   install:
     cmds:
       - go build -o {{.Dir}}/kltpl ./main.go 
+
+  build:
+    cmds:
+      - go build -o bin/kltpl ./main.go
